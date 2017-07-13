@@ -6,6 +6,8 @@ MolemanBOT was originally designed to provide useful commands focused on The Sim
 However, its uses have expanded and the bot now provides commands for Futurama, XKCD, various video game information,
 random number generation and access to various web APIs.
 
+The bot also features a join announcement feature over voice, when anyone joins/leaves the same voice channel as
+MolemanBOT, the user's name will be announced over voice using Text to Speech, similar to what is provided in TeamSpeak by default.
  
 
 ## Commands
