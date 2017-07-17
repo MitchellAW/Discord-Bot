@@ -8,7 +8,15 @@ random number generation and access to various web APIs.
 
 The bot also features a join announcement feature over voice, when anyone joins/leaves the same voice channel as
 MolemanBOT, the user's name will be announced over voice using Text to Speech, similar to what is provided in TeamSpeak by default.
- 
+
+# Requirements
+Requires the following python modules to be installed:
+Discord.py
+Discord.py[voice]
+ffmpeg (and added to PATH environment variables)
+youtube_dl
+requests
+gTTS
 
 ## Commands
 ### !join
