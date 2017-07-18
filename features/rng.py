@@ -30,13 +30,13 @@ def getSlotsScreen():
 
 	slotOutput = '|\t:{}:\t|\t:{}:\t|\t:{}:\t|\t:{}:\t|\n'.format(slot1, slot2, slot3, slot4)
 
-	if slot1 == slot2 and slot2 == slot3 and slot3 == slot4 and slot4 != '7':
+	if slot1 == slot2 and slot2 == slot3 and slot3 == slot4 and slot4 != 'seven':
 		return slotOutput + '$$ GREAT $$'
 
-	elif slot1 == '7' and slot2 == '7' and slot3 == '7' and slot4 == '7':
+	elif slot1 == 'seven' and slot2 == 'seven' and slot3 == 'seven' and slot4 == 'seven':
 		return slotOutput + '$$ JACKPOT $$'
 
-	elif slot1 == slot2 and slot3 == slot4 or slot1 == slot3 and slot2 == slot4 or slot1 == slot3 and slot2 == slot4:
+	elif slot1 == slot2 and slot3 == slot4 or slot1 == slot3 and slot2 == slot4 or slot1 == slot4 and slot2 == slot3:
 		return slotOutput + '$ NICE $'
 
 	else:
