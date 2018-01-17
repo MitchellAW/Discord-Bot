@@ -1,11 +1,11 @@
 # Discord-Bot (MolemanBOT)
 My own Discord bot built in Python using the discord.py API.
 
-NOTE: THIS BOT IS CALLED MOLEMAN FOR A REASON, THIS BOT IS FILLED WITH RANDOM EXPERIMENTATION WITH RANDOM APIs AND IT CRASHES REGULARLY
+NOTE: THIS BOT IS CALLED MOLEMAN FOR A REASON, THIS BOT IS FILLED WITH RANDOM EXPERIMENTATION WITH RANDOM APIs AND IT CRASHES REGULARLY.
+
 My FlandersBOT is likely a better alternative for just the basic simpsons, futurama and morbotron features.
 
 MolemanBOT was originally designed to provide useful commands focused on The Simpsons.
-
 However, its uses have expanded and the bot now provides commands for Futurama, XKCD, various video game information,
 random number generation and access to various web APIs.
 
