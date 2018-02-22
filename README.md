@@ -1,16 +1,16 @@
 # Discord-Bot (MolemanBOT)
 My own Discord bot built in Python using the discord.py API.
 
-## NOTE: THIS BOT IS CALLED MOLEMAN FOR A REASON, THIS BOT IS FILLED WITH RANDOM EXPERIMENTATION WITH RANDOM APIs AND IT CRASHES REGULARLY.
+## THIS BOT IS OUTDATED AND HAS BEEN REPLACED WITH FLANDERSBOT
+[View FlandersBOT HERE](https://github.com/MitchellAW/FlandersBOT)
 
-My FlandersBOT is likely a better alternative for just the basic simpsons, futurama and morbotron features.
+[FlandersBOT](https://github.com/MitchellAW/FlandersBOT) is the better alternative and implements a much better use of the referencing system used by MolemanBOT, [FlandersBOT](https://github.com/MitchellAW/FlandersBOT) provides commands for The Simpsons and Futurama, just the same as this bot, but also offers support for Rick and Morty, 30 Rock and West Wing, in addition to the implementation of captions embedded in the screencaps.
 
-MolemanBOT was originally designed to provide useful commands focused on The Simpsons.
-However, its uses have expanded and the bot now provides commands for Futurama, XKCD, various video game information,
-random number generation and access to various web APIs.
+MolemanBOT was originally designed to provide useful commands focused on The Simpsons. All API Calls that MolemanBOT makes
+are performed with the requests module, blocking the bot from performing any other events until the API call completes, causing it to crash very often if any API call lasts a significant amount of time. This is why I am now considering this bot to be deprecated, as this is not the case with [FlandersBOT](https://github.com/MitchellAW/FlandersBOT).
 
-The bot also features a join announcement feature over voice, when anyone joins/leaves the same voice channel as
-MolemanBOT, the user's name will be announced over voice using Text to Speech, similar to what is provided in TeamSpeak by default.
+MolemanBOT also features a join announcement feature over voice, when anyone joins/leaves the same voice channel as
+MolemanBOT, the user's name will be announced over voice using Text to Speech (using gTTS), similar to what is provided in TeamSpeak by default.
 
 # Requirements
 Requires the following python modules to be installed:
